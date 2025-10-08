@@ -10,8 +10,6 @@ https://gitdl.cn/
 
 https://ghfast.top/
 
-https://gh.con.sh/
-
 https://ghproxy.net/
 
 https://github.moeyy.xyz/
