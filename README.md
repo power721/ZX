@@ -1,4 +1,5 @@
 # ZX
+Download PG file from [https://github.com/power721/pg](https://github.com/power721/pg/releases)
 
 https://slink.ltd/
 
