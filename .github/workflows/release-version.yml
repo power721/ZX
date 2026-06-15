@@ -1,0 +1,16 @@
+name: Push Version To Server
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Call version API
+        run: |
+          VERSION="${{ github.event.release.tag_name }}"
+
+          curl -X GET "${{ secrets.VERSION_API }}?type=zx&version=${VERSION}"
